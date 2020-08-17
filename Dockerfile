@@ -8,7 +8,7 @@
 # Contributors:
 #   Red Hat, Inc. - initial API and implementation
 
-FROM node:12.18.3-alpine
+FROM alpine:3.12.0
 
 RUN apk --update --no-cache add \
         ca-certificates \
